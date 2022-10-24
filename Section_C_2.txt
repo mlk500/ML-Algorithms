@@ -1,0 +1,8 @@
+Section C - 2:
+Comparison the results of our program with sklearn's:
+
+Sklearn models were faster than our models, there's a chance that they use parallelization (multiprocessing)
+Regarding metrics, as shown in the sklearn documentation for each model, they use many hyper parameters, which may 
+lead to better predictions in general (there was some cases where a model of ours had better predictions according 
+to the measurements).
+P.S: the output shows the differences in predictions, and the built in time function was used.  
